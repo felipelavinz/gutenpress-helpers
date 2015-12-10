@@ -1,0 +1,18 @@
+{
+    "name": "gutenpress/helpers",
+    "description": "Helpers components for GutenPress",
+    "require": {
+        "anahkiasen/underscore-php": "dev-master"
+    },
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Felipe Lavín Z.",
+            "email": "felipe@yukei.net"
+        }
+    ],
+    "autoload": {
+        "classmap": ["src/"]
+    },
+    "minimum-stability": "dev"
+}
