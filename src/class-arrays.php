@@ -19,7 +19,7 @@ class Arrays extends Underscore\Arrays{
 	public static function filter_recursive( $array, $callback = null ) {
 		foreach ( $array as &$value ) {
 			if ( is_array( $value ) ) {
-				$value = $callback === null ? static::filter_recursive( $array ) : static::filter_recursive( $array, $callback );
+				$value = $callback === null ? static::filter_recursive( $value ) : static::filter_recursive( $value, $callback );
 			}
 		}
 		return $callback === null ? array_filter( $array ) : array_filter( $array, $callback );
