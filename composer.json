@@ -1,5 +1,6 @@
 {
     "name": "gutenpress/helpers",
+    "type": "wordpress-plugin",
     "description": "Helpers components for GutenPress",
     "require": {
         "anahkiasen/underscore-php": "dev-master"
